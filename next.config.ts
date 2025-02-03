@@ -10,6 +10,13 @@ const nextConfig = {
                 pathname: '/avatar/**',
                 // The search parameter is optional and can be omitted unless specific query parameters are needed
             },
+            {
+                protocol: 'http',
+                hostname: 'nextdrupal.lndo.site',
+                port: '',
+                pathname: '/sites/**',
+                // The search parameter is optional and can be omitted unless specific query parameters are needed
+              },
         ],
         // Optionally, set domains if using legacy Next.js versions
         // domains: ['s.gravatar.com'],
